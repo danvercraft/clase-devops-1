@@ -19,5 +19,5 @@ steps:
     displayName: 'Instalar dependencias'
 
   - script: |
-      python test/test_calculadora.py
+      python tests/test_calculadora.py
     displayName: 'Ejecutar pruebas'
